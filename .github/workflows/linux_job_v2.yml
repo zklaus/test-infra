@@ -197,8 +197,8 @@ jobs:
           path: ${{ inputs.repository || github.repository }}
           fetch-depth: ${{ inputs.fetch-depth }}
           submodules: ${{ inputs.submodules }}
-          filter: ${{ env.filter}}
-          submodules-filter: ${{ env.filter}}
+          filter: ${{ env.filter }}
+          submodules-filter: ${{ env.filter }}
 
       - name: Calculate docker image
         id: calculate-docker-image
